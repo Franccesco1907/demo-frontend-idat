@@ -100,9 +100,7 @@ El tipo "date" se utiliza para seleccionar una fecha específica a partir de un 
 <input type="date" name="fecha_nacimiento">
 ```
 
-Estos son solo algunos ejemplos de etiquetas de formulario y tipos de input en HTML. La combinación de estas etiquetas y tipos de input te permite crear formularios interactivos y personalizados para tu sitio web. Es importante comprender cómo funcionan y cómo se combinan para lograr la funcionalidad deseada en tu frontend.
-
-### 1. Validaciones de formulario y atributos de validación
+### 4. Validaciones de formulario y atributos de validación
 
 La validación de formularios es un proceso esencial para garantizar que los datos ingresados por los usuarios sean precisos y cumplan con ciertos criterios antes de ser enviados al servidor. HTML5 introduce una serie de atributos que facilitan la validación de formularios sin necesidad de escribir JavaScript personalizado. Algunos atributos de validación comunes incluyen:
 
@@ -127,7 +125,7 @@ El atributo `pattern` permite definir un patrón de expresión regular que debe 
 <input type="text" name="telefono" pattern="[0-9]{10}">
 ```
 
-### 2. Patrones de validación
+### 5. Patrones de validación
 
 Los patrones de validación se definen utilizando expresiones regulares en el atributo `pattern`. Aquí hay algunos ejemplos comunes de patrones de validación:
 
@@ -153,7 +151,7 @@ Opcional:
 <input type="text" name="codigo_postal" pattern="\d{5}(-\d{4})?">
 ```
 
-### 3. Pseudo clases de validación
+### 6. Pseudo clases de validación
 
 Las pseudo clases de validación en CSS son útiles para aplicar estilos a elementos del formulario basados en su estado de validación. Algunas pseudo clases de validación comunes son:
 
@@ -183,5 +181,3 @@ input:required {
   font-weight: bold;
 }
 ```
-
-Estas son algunas de las herramientas que puedes utilizar para implementar la validación de formularios en HTML y aplicar estilos basados en el estado de validación utilizando CSS. La validación de formularios es esencial para mejorar la experiencia del usuario y garantizar que los datos ingresados sean precisos y confiables.
