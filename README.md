@@ -20,6 +20,9 @@ Las etiquetas de formulario son elementos HTML utilizados para crear diferentes 
 La etiqueta `<input>` se utiliza para crear campos de entrada en formularios. Puede tener varios tipos, que se describen en detalle a continuación.
 
 #### `<label>`
+
+
+
 La etiqueta `<label>` se utiliza para proporcionar etiquetas descriptivas para los campos de entrada. Mejora la accesibilidad y la usabilidad de un formulario.
 
 ```html
